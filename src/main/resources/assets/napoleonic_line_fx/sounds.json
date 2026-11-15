@@ -1,0 +1,11 @@
+{
+  "arquebus_fire": {
+    "subtitle": "subtitles.napoleonic_line.arquebus_fire",
+    "sounds": [
+      {
+        "name": "napoleonic_line_fx:musket_fire_4",
+        "stream": false
+      }
+    ]
+  }
+}
