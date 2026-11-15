@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="napoleonic_line_fx"
+version="1.0.0"
+displayName="Napoleonic Line Effects"
+authors="NapoleonicLineTeam"
+description='''Client smoke and bullet tracers for Napoleonic Line Infantry. Optional. Without this jar the main mod uses plain campfire smoke and no tracers.'''
+
+[[dependencies.napoleonic_line_fx]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.1.0,48)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.napoleonic_line_fx]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.napoleonic_line_fx]]
+    modId="napoleonic_line"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

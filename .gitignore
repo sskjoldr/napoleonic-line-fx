@@ -1,0 +1,36 @@
+.gradle/
+build/
+run/
+run-client/
+run-server/
+run-gametest/
+run-data/
+out/
+.idea/
+*.iml
+.vscode/
+eclipse/
+.classpath
+.project
+.settings/
+bin/
+src/generated/
+
+# secrets: never commit environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# build artifacts, dumps, logs
+*.zip
+*.tar.gz
+*.log
+logs/
+*.html
+*cookie*
+*.cookies
+
+# jars except the Gradle wrapper
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
