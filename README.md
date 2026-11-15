@@ -1,8 +1,8 @@
 # Napoleonic Line Effects / Эффекты наполеоновской линии
 
-Client-only smoke and bullet tracers for [Napoleonic Line Infantry](https://github.com/sskjoldr/napoleonic-line). Without this jar the main mod uses ordinary campfire smoke, no tracers, and arquebus shots are silent: the arquebus sound `musket_fire_4.ogg` ships in this jar.
+Client-only smoke and bullet tracers for [Napoleonic Line Infantry](https://github.com/sskjoldr/napoleonic-line). Visual only: powder smoke, muzzle flash, and tracers. No sounds. Without this jar the main mod uses ordinary campfire smoke and no tracers.
 
-Клиентский подмод дыма и трассеров для основного мода [napoleonic-line](https://github.com/sskjoldr/napoleonic-line). Без этой банки основной мод рисует обычный дым костра, не рисует трассеры, а аркебузы стреляют беззвучно: звук `musket_fire_4.ogg` вшит в этот мод.
+Клиентский подмод дыма и трассеров для основного мода [napoleonic-line](https://github.com/sskjoldr/napoleonic-line). Только визуал: пороховой дым, вспышка у дула и трассеры, без звуков. Без этого мода основной мод рисует обычный дым костра и не рисует трассеры.
 
 ## Requirements / Требования
 
@@ -24,4 +24,4 @@ The jar is written to `build/libs/napoleonic_line_fx-1.0.0.jar`.
 
 ## License
 
-MIT. Arquebus sound: [musket_fire_4.wav (#648747) by J8054](https://freesound.org/people/J8054/sounds/648747/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+MIT.
