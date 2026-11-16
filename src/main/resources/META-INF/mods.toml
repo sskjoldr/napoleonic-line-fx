@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="napoleonic_line_fx"
-version="1.0.0"
+version="1.0.1"
 displayName="Napoleonic Line Effects"
 authors="NapoleonicLineTeam"
 description='''Client smoke and bullet tracers for Napoleonic Line Infantry. Optional. Without this jar the main mod uses plain campfire smoke and no tracers.'''

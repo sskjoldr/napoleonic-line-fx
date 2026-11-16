@@ -10,7 +10,7 @@ Client-only smoke and bullet tracers for [Napoleonic Line Infantry](https://gith
 - Main mod **napoleonic_line** 1.0.0+ (required at runtime; this jar is client-only)
 - Villager Recruits 1.15.2 and ewewukek's Musket Mod are dependencies of the **main** mod, not of this one
 
-Install `napoleonic_line-1.0.0.jar` on the server and the client, and `napoleonic_line_fx-1.0.0.jar` on the client only.
+Install `napoleonic_line-1.0.1.jar` on the server and the client, and `napoleonic_line_fx-1.0.1.jar` on the client only.
 
 ## Build / Сборка
 
@@ -20,7 +20,7 @@ This repository is self-contained. It compiles against copies of three main-mod 
 ./gradlew build
 ```
 
-The jar is written to `build/libs/napoleonic_line_fx-1.0.0.jar`.
+The jar is written to `build/libs/napoleonic_line_fx-1.0.1.jar`.
 
 ## License
 
