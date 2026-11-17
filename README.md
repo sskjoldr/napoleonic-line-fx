@@ -10,7 +10,11 @@ Client-only smoke and bullet tracers for [Napoleonic Line Infantry](https://gith
 - Main mod **napoleonic_line** 1.0.0+ (required at runtime; this jar is client-only)
 - Villager Recruits 1.15.2 and ewewukek's Musket Mod are dependencies of the **main** mod, not of this one
 
-Install `napoleonic_line-1.0.1.jar` on the server and the client, and `napoleonic_line_fx-1.0.1.jar` on the client only.
+Install `napoleonic_line-1.1.0.jar` on the server and the client, and `napoleonic_line_fx-1.1.0.jar` on the client only.
+
+Since 1.1.0 the smoke, muzzle flash, and tracers also appear on shots from Epic Knights: Thirty Years War guns (matchlock musket, wheellock pistol) when the main mod 1.1.0 and Thirty Years War are installed. The shot sound always comes from the gun or the main mod; this jar stays visual only.
+
+С 1.1.0 дым, вспышка и трассеры появляются и на выстрелах мушкетов Epic Knights: Thirty Years War (нужен основной мод 1.1.0). Звук выстрела даёт само оружие или основной мод, этот мод остаётся только визуальным.
 
 ## Build / Сборка
 
@@ -20,7 +24,7 @@ This repository is self-contained. It compiles against copies of three main-mod 
 ./gradlew build
 ```
 
-The jar is written to `build/libs/napoleonic_line_fx-1.0.1.jar`.
+The jar is written to `build/libs/napoleonic_line_fx-1.1.0.jar`.
 
 ## License
 
